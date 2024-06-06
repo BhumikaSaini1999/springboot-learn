@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en" xmlns:th="http://www.thymeleaf.org">
+<meta charset="ISO-8859-1">
+<title>luv2code Company Home Page</title>
+</head>
+<body>
+  <h2>luv2code Company Home Page - Silly Goose!</h2>
+  <hr>
+  <p>
+  Welcome to the luv2code company home page!
+  </p>
+  <br><br>
+  <!-- Add a logout button -->
+  <form th:action="@{/logout}" method="POST">
+      <input type="submit" value="Logout"/>
+  </form>
+</body>
+</html>
